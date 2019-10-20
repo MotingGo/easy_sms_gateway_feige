@@ -1,0 +1,19 @@
+{
+    "name": "MotingGo/easy_sms_gateway_feige",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "moting",
+            "email": "motingphp@gmail.com"
+        }
+    ],
+    "require": {
+        "overtrue/easy-sms": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MotingGo\\EasySms\\Gateway\\": "./src/"
+        }
+    }
+}
